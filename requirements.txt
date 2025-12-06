@@ -1,0 +1,57 @@
+# requirements.txt
+# Stock Market Predictor - Python Dependencies
+# Install with: pip install -r requirements.txt
+
+# Data Processing & Analysis
+numpy>=1.21.0
+pandas>=1.3.0
+yfinance>=0.1.70
+
+# Deep Learning & Neural Networks
+tensorflow>=2.8.0
+keras>=2.8.0
+
+# Machine Learning & Preprocessing
+scikit-learn>=1.0.0
+scikit-optimize>=0.9.0
+
+# Data Visualization
+matplotlib>=3.4.0
+plotly>=5.0.0
+
+# Web Interface
+streamlit>=1.20.0
+
+# Technical Analysis
+# Note: If ta-lib fails to install, use 'ta' instead
+# Uncomment one of these:
+ta>=0.10.0
+# OR
+# ta-lib>=0.4.24
+
+# Model Persistence
+joblib>=1.1.0
+
+# Utilities
+python-dateutil>=2.8.0
+
+# Optional: For GPU acceleration (if you have NVIDIA GPU)
+#tensorflow[and-cuda]>=2.8.0
+
+# Optional: For development/testing
+ pytest>=7.0.0
+ jupyter>=1.0.0
+ ipython>=8.0.0
+
+tensorflow>=2.13.0
+streamlit>=1.28.0
+pandas>=2.0.0
+numpy>=1.24.0
+yfinance>=0.2.28
+scikit-learn>=1.3.0
+plotly>=5.17.0
+ta>=0.10.2
+joblib>=1.3.0
+python-dateutil>=2.8.2
+requests>=2.31.0
+scipy>=1.11.0

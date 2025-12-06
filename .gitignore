@@ -1,0 +1,38 @@
+# ==================== PYTHON BASICS ====================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==================== VIRTUAL ENVIRONMENT ====================
+# Ignore the folder where all your libraries (pandas, tensorflow) are installed
+venv/
+.venv/
+env/
+.env
+
+# ==================== PROJECT SPECIFIC (from config.py) ====================
+# Ignore downloaded stock data (large CSVs)
+data/
+
+# Ignore trained models (large .h5 files)
+models/*.h5
+
+# Ignore scaler files
+models/scalers/
+*.pkl
+
+# Ignore generated prediction files
+predictions/
+
+# ==================== IDE & OS SETTINGS ====================
+# VS Code settings (optional, but recommended)
+.vscode/
+
+# Windows/Mac system files
+Thumbs.db
+.DS_Store
+
+# ==================== MISC ====================
+# Ignore log files if any are generated
+*.log
